@@ -1,0 +1,55 @@
+/* --- GENERAL --- */
+:root {
+    --background-color: #1d1d1d;
+    --color-text: #4E586E;
+    --separator: #5e6066;
+    --strong: #F54B64;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--color-text);
+
+    font-family: 'Roboto Mono', sans-serif; 
+}
+
+strong {
+    color: var(--strong);
+}
+
+/* --- HEADER --- */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 1rem;
+}
+
+.github-icon {
+    width: 2rem;
+    height: 2rem;
+
+    padding-top: 1.3rem;
+    padding-right: 2.5rem; 
+}
+
+/* --- MAIN --- */
+
+section {
+    margin-left: 1rem; 
+}
+
+.profile-image {
+    border-radius: .4rem;
+}
+
+.section-2 {
+    padding-top: 2rem;
+}
+/* --- FOOTER --- */
